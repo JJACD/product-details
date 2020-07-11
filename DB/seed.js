@@ -63,4 +63,4 @@ const seedData = (n) => {
 
 ////////// DATA HAS BEEN SEEDED /////////////
 // NOTE: If you need to seed data, uncomment below line and run script 'npm run db-seed' from the command line in your terminal. Only run it once.
-// seedData(100);
+seedData(100);

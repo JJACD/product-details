@@ -12,22 +12,22 @@ export default class App extends React.Component {
 
     this.state = {
       product: {
-        "id":null,
-        "why_we_made_this":null,
-        "designed_for":null,
+        "id": 12,
+        "why_we_made_this": "Calm is always just a practice away. Nearly seamless and pocket-free to make floor work extra comfortable.",
+        "designed_for": "Yoga",
         "features": null,
-        "materials":null,
-        "imgurl1":null,
-        "imgurl2":null
+        "materials": "Body: 80% Nylon 20% Lycra® Elastane",
+        "imgurl1": "https://lulu-fec.s3.us-east-2.amazonaws.com/image29.jpeg",
+        "imgurl2": "https://lulu-fec.s3.us-east-2.amazonaws.com/image30.jpeg"
       },
-      features: ["Ultralight"],
+      features: ["Smooth cool feel", "Supportive", "Pocket holds your key or card", "Breathable", "Lightweight coverage", "High Rise", "21 Inch Inseam", "Sweat-wicking", "Minimal seams to reduce chafe", "High-coverage", "Supportive"],
     }
     this.getProduct = this.getProduct.bind(this);
 
   }
 
   componentDidMount(){
-    this.getProduct();
+    // this.getProduct();
   }
 
   getProduct(){
@@ -59,3 +59,4 @@ export default class App extends React.Component {
     )
   }
 };
+
